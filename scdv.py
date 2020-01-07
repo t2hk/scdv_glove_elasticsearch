@@ -17,13 +17,11 @@ class SparseCompositeDocumentVectors:
         
         #### 読み込むファイルの設定
         # GloVeの単語ベクトルファイル
-        self.glove_word_vector_file = "../elasticsearch/es_glove_vectors.txt"
-        #self.glove_word_vector_file = "../glove/glove_vectors.txt"
+        self.glove_word_vector_file = "vectors.txt"
 
         #### 出力するファイルの設定
         # GloVeの単語ベクトルに単語数とベクトルサイズを付与したファイル
-        self.gensim_glove_word_vector_file = "../elasticsearch/es_gensim_glove_vectors.txt"
-        #self.gensim_glove_word_vector_file = "../glove/gensim_glove_vectors.txt"
+        self.gensim_glove_word_vector_file = "gensim_glove_vectors.txt"
         
         # GMMの結果を保存するPickleファイル
         self.pname1 = pname1
