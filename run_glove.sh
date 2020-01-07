@@ -1,4 +1,8 @@
 #!/bin/bash
+
+############################################################
+# Original file is https://github.com/stanfordnlp/GloVe
+############################################################
 set -e
 
 # Makes programs, downloads sample data, trains a GloVe model, and then evaluates it.
